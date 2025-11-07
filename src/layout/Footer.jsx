@@ -1,7 +1,7 @@
-export const ComponentName = () => {
+export const Footer = () => {
   return (
     <div>
-      ComponentName
+      Footer
     </div>
   )
 }

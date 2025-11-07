@@ -1,14 +1,15 @@
 import { Route, Routes } from "react-router"
-import Test from "./layout/test"
+import { Mainlayout } from "./layout/main-layout"
 
 function App() {
 
   return (
-    <Test/>
-    // <Routes>
-    //   <Route path="/" element={<Home />} />
-    //   <Route path="/about" element={<About />} />
-    // </Routes>
+    <Routes>
+      <Route path="/" element={<Mainlayout/>}>
+        <Route index element={<sasas/>} />
+        <Route path="/about" element={< wewew/>} />
+      </Route>
+    </Routes>
   )
 }
 
