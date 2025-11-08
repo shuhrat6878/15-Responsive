@@ -8,12 +8,12 @@ export const Header = () => {
   return (
     <header className="border border-gray-200">
       <div className="container flex items-center justify-between py-5 pl-4 pr-5 ">
-        <img src={logo} alt="aaa" />
+        <img className="" src={logo} alt="aaa" />
         <div className="block desktop:hidden">
           <Menyu />
         </div>
         <div className=" hidden desktop:flex items-center justify-between w-full ml-5">
-          <div className=" flex  gap-x-8 mr-[196px]">
+          <div className=" flex  gap-x-8 grow">
             <p>Categories</p>
             <p className="flex  items-center gap-3">About Us <span><Strelka/></span></p>
             <p className="flex  items-center gap-3">Help center <span><Strelka/></span></p>
